@@ -2,8 +2,8 @@ import requests
 import base64
 
 #set up the authetication parameters
-client_id = '96325b8469ec4ba58cee4a26935bab93'
-client_secret ='e2b4f89857154d4abf43183e97fd31b4'
+client_id = ''
+client_secret =''
 auth_url = 'https://accounts.spotify.com/api/token'
 #encode the client ID and client secret using base64
 auth_header = base64.b64encode(f"{client_id}\
